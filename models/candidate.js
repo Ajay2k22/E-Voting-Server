@@ -5,6 +5,10 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    elctionName: {
+        type: String,
+        required: true
+    },
     age: {
         type: String,
         required: true
@@ -12,7 +16,7 @@ const userSchema = new mongoose.Schema({
     party: {
         type: String,
         required: true,
-        unique: true
+
     },
     numVotes: {
         type: String,
